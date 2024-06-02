@@ -1,2 +1,1 @@
-# jenkinsPipeline
-pipeline
+# multibranch-sample-app
