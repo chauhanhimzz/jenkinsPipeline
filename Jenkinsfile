@@ -11,6 +11,14 @@ pipeline {
         '''
       }
     }
+    stages {
+    stage('Hello1') {
+      steps {
+        sh '''
+          mvn -version
+        '''
+      }
+    }
     stage('cat README') {
       when {
         branch "main*"
