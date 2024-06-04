@@ -9,9 +9,6 @@ pipeline {
         sh '''
           java -version
         '''
-        sh '''
-          mvn -version
-        '''
       }
     }
     stage('cat README') {
